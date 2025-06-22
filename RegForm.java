@@ -18,8 +18,9 @@ import org.openqa.selenium.support.ui.Select;
 public class RegForm {
 
 	public static void main(String[] args) throws AWTException, InterruptedException {
-			
+		// WebDriver object instantiation 	
 		WebDriver driver = new ChromeDriver();
+		// Implementing implicit wait
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
 		driver.get("https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php");
